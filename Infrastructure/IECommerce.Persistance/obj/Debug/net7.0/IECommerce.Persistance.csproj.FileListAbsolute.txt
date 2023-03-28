@@ -1,0 +1,17 @@
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IECommerce.Persistance.deps.json
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IECommerce.Persistance.dll
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IECommerce.Persistance.pdb
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IEcommerce.Application.dll
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IEcommerce.Domain.dll
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IEcommerce.Application.pdb
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/bin/Debug/net7.0/IEcommerce.Domain.pdb
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.csproj.AssemblyReference.cache
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.AssemblyInfoInputs.cache
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.AssemblyInfo.cs
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.csproj.CoreCompileInputs.cache
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.csproj.CopyComplete
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.dll
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/refint/IECommerce.Persistance.dll
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/IECommerce.Persistance.pdb
+/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/Debug/net7.0/ref/IECommerce.Persistance.dll

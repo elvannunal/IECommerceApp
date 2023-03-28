@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/elvanunal/IECommerce/Presentation/IECommerce.API/IECommerce.API.csproj": {}
+  },
+  "projects": {
+    "/Users/elvanunal/IECommerce/Core/IEcommerce.Application/IEcommerce.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elvanunal/IECommerce/Core/IEcommerce.Application/IEcommerce.Application.csproj",
+        "projectName": "IEcommerce.Application",
+        "projectPath": "/Users/elvanunal/IECommerce/Core/IEcommerce.Application/IEcommerce.Application.csproj",
+        "packagesPath": "/Users/elvanunal/.nuget/packages/",
+        "outputPath": "/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elvanunal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/elvanunal/IECommerce/Core/IEcommerce.Domain/IEcommerce.Domain.csproj": {
+                "projectPath": "/Users/elvanunal/IECommerce/Core/IEcommerce.Domain/IEcommerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elvanunal/IECommerce/Core/IEcommerce.Domain/IEcommerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elvanunal/IECommerce/Core/IEcommerce.Domain/IEcommerce.Domain.csproj",
+        "projectName": "IEcommerce.Domain",
+        "projectPath": "/Users/elvanunal/IECommerce/Core/IEcommerce.Domain/IEcommerce.Domain.csproj",
+        "packagesPath": "/Users/elvanunal/.nuget/packages/",
+        "outputPath": "/Users/elvanunal/IECommerce/Core/IEcommerce.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elvanunal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/IECommerce.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/IECommerce.Persistance.csproj",
+        "projectName": "IECommerce.Persistance",
+        "projectPath": "/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/IECommerce.Persistance.csproj",
+        "packagesPath": "/Users/elvanunal/.nuget/packages/",
+        "outputPath": "/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elvanunal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/elvanunal/IECommerce/Core/IEcommerce.Application/IEcommerce.Application.csproj": {
+                "projectPath": "/Users/elvanunal/IECommerce/Core/IEcommerce.Application/IEcommerce.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elvanunal/IECommerce/Presentation/IECommerce.API/IECommerce.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elvanunal/IECommerce/Presentation/IECommerce.API/IECommerce.API.csproj",
+        "projectName": "IECommerce.API",
+        "projectPath": "/Users/elvanunal/IECommerce/Presentation/IECommerce.API/IECommerce.API.csproj",
+        "packagesPath": "/Users/elvanunal/.nuget/packages/",
+        "outputPath": "/Users/elvanunal/IECommerce/Presentation/IECommerce.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elvanunal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/IECommerce.Persistance.csproj": {
+                "projectPath": "/Users/elvanunal/IECommerce/Infrastructure/IECommerce.Persistance/IECommerce.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

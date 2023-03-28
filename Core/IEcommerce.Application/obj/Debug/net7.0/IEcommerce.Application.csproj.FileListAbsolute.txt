@@ -1,0 +1,15 @@
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/bin/Debug/net7.0/IEcommerce.Application.deps.json
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/bin/Debug/net7.0/IEcommerce.Application.dll
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/bin/Debug/net7.0/IEcommerce.Application.pdb
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/bin/Debug/net7.0/IEcommerce.Domain.dll
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/bin/Debug/net7.0/IEcommerce.Domain.pdb
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.csproj.AssemblyReference.cache
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.AssemblyInfoInputs.cache
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.AssemblyInfo.cs
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.csproj.CoreCompileInputs.cache
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.csproj.CopyComplete
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.dll
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/refint/IEcommerce.Application.dll
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/IEcommerce.Application.pdb
+/Users/elvanunal/IECommerce/Core/IEcommerce.Application/obj/Debug/net7.0/ref/IEcommerce.Application.dll

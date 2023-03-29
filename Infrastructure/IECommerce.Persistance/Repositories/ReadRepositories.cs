@@ -17,20 +17,12 @@ public class ReadRepositories<T> : IReadRepositories<T> where  T : BaseEntity
 
     public DbSet<T> Table => _context.Set<T>();
     public IQueryable<T> GetAll() => Table;
- 
 
-    public IQueryable<T> GetWhere(Expression<Func<T, bool>> method)
-    {
-        throw new NotImplementedException();
-    }
 
-    public T GetSingleAsync(Expression<Func<T, bool>> method)
-    {
-        throw new NotImplementedException();
-    }
+    public IQueryable<T> GetWhere(Expression<Func<T, bool>> method) => Table.Where(method);
 
-    public T GetByIdAsync(string id)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method) => await Table.FirstOrDefaultAsync(method);
+
+    public async Task<T> GetByIdAsync(string id)
+        => await Table.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
 }

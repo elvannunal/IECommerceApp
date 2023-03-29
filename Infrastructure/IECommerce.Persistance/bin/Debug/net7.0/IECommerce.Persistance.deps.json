@@ -281,7 +281,8 @@
       },
       "IEcommerce.Application/1.0.0": {
         "dependencies": {
-          "IEcommerce.Domain": "1.0.0"
+          "IEcommerce.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.2.23128.3"
         },
         "runtime": {
           "IEcommerce.Application.dll": {}

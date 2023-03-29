@@ -8,6 +8,6 @@ public interface IReadRepositories<T> :IRepository<T> where T : BaseEntity
 {
    IQueryable<T> GetAll();
    IQueryable<T> GetWhere(Expression<Func<T, bool>> method);
-   T GetSingleAsync(Expression<Func<T, bool>> method);
-   T GetByIdAsync(string id);
+   Task<T> GetSingleAsync(Expression<Func<T, bool>> method);
+   Task<T> GetByIdAsync(string id);
 }

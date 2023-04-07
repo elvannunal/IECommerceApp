@@ -18,7 +18,7 @@ public class ProductsController : ControllerBase
 
    [HttpGet]
 
-   public async void Get()
+   public async Task Get()
    {
       await _productWriteRepositories.AddRangeAsync(new()
       {

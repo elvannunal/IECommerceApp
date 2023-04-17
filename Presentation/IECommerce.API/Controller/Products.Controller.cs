@@ -21,13 +21,10 @@ public class ProductsController : ControllerBase
 
    public async Task Get()
    {
-      await _productWriteRepositories.AddRangeAsync(new()
-      {
-         new() { Id = Guid.NewGuid(), Name = "Product1", Price = 100, CreatedDate = DateTime.UtcNow, Stock = 10 },
-         new() { Id = Guid.NewGuid(), Name = "Product1", Price = 200, CreatedDate = DateTime.UtcNow, Stock = 20 },
-         new() { Id = Guid.NewGuid(), Name = "Product1", Price = 300, CreatedDate = DateTime.UtcNow, Stock = 30 }
-      });
-      var count = await _productWriteRepositories.Saveasync();
+      await _productWriteRepositories.AddAsync(new()
+         { Name = "C Product", Price = 2333, Stock = 10, CreatedDate = DateTime.UtcNow });
+
+      await _productWriteRepositories.Saveasync();
    }
 
    [HttpGet("{id}")]

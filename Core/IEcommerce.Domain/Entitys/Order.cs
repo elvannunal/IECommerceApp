@@ -1,4 +1,4 @@
-using IEcommerce.Domain.Entitys.Common;
+ using IEcommerce.Domain.Entitys.Common;
 
 namespace IEcommerce.Domain.Entitys;
 
